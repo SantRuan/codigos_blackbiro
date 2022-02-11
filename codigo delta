@@ -1,0 +1,13 @@
+import sympy as s
+import math
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+
+v = 7 #velocidade do aviao
+V = np.arange(0,10,0.1) #velocidade do vento
+Cl = -0.022160288148560657
+Cl_delta_aileron = 0.142
+
+print(V)
